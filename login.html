@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingresar</title>
+    <!-- Librerias Js-->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+    <!-- Librerias Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css"/>
+</head>
+<body id="fondo1">
+
+    <div>
+
+    </div>
+
+    <a class="btn btn-primary" href="index.php" role="button">Link</a>
+    
+    <div id="cuadro">
+        <h2>¡Inicia secion!</h2>
+        <form id="for" action="" method="dialog"> <!--|¿action="/formulario"?|-->
+
+            <hr>
+            <label for="UsuarioN">Nombre: </label> 
+            <input type="text" id='UsuarioN' name="Perfil" placeholder="Nombre" />
+            
+            <hr>
+            <label for="UsuarioC">Contraseña: </label>
+            <input type="password" id='UsuarioC' name="contraseña" placeholder="contraseña"/>
+            
+            <hr>
+            <input type="submit" value="Enviar" id="botom" />
+            
+            <br>
+            <a href="registro.html"> ¿No tienes cuenta?</a>
+        </form>
+        <div id="error"></div>
+    </div>
+
+</body>
+</html>
