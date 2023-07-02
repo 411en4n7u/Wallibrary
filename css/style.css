@@ -29,7 +29,28 @@
     color: black;
 }
 
+.carousel2{
+    color:black;
+}
+
 #bajos{
     background-color: black;
     color: aliceblue;
+}
+
+ 
+#carouselExampleIndicators .carousel-item{
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
+}
+
+@media (max-width: 600px){
+    #carouselExampleIndicators .carousel-caption{
+        height: 7rem;
+    }
+
+}
+.letras_carrusel{
+    -webkit-text-stroke: 1px black;
 }

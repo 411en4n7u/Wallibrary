@@ -8,6 +8,8 @@
     font-family: raleway;
     float:left;
     margin-top:50px;
+    object-fit: cover;
+    object-position: center;
     }
 
 #h2{
