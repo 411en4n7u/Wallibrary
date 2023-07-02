@@ -54,3 +54,19 @@
 .letras_carrusel{
     -webkit-text-stroke: 1px black;
 }
+
+img{
+    height: 500px;
+}
+
+.precio{
+    -webkit-text-stroke: 1px black;
+}
+
+.descrip{
+
+}
+
+#api{
+    
+}

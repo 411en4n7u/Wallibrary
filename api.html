@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="DolarO">
+        <script>
+            console.log("Consultando...");
+            fetch('https://mindicador.cl/api').then(function(response) {
+            return response.json();
+            }).then(function(dailyIndicators) {
+            document.getElementById("DolarO").innerHTML = 'Valor Dólar $' + dailyIndicators.dolar.valor;
+            }).catch(function(error) {
+            console.log('Requestfailed', error);
+            });
+        </script>
+    </div> 
+</body>
+</html>
